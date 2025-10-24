@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ricks | Data Analyst Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="hero">
+    <div class="container">
+      <h1 class="fade-in">Ricks</h1>
+      <p class="fade-in delay">Data Analyst | Statistician | BI Developer</p>
+      <nav class="fade-in delay-2">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section fade-in">
+        <h2>About Me</h2>
+    <div class="about-container">
+        <img src="assets/profile.jpg" alt="Ricks profile photo" class="profile-img">
+    <p>
+      I’m a Data Analyst with a B.Sc. in Statistics (University of Lagos, 2025) and practical experience in data cleaning,
+      analysis, and visualization. I apply statistical and analytical techniques to uncover trends and support data-informed
+      decisions using Python, R, SQL, Power BI, and Excel.
+    </p>
+    </div>
+    </section>
+
+
+    <section id="skills" class="section fade-in delay">
+      <h2>Technical Skills</h2>
+      <ul class="skills-grid">
+        <li>Python (Pandas, NumPy, Matplotlib)</li>
+        <li>R Programming</li>
+        <li>SQL</li>
+        <li>Power BI</li>
+        <li>Excel</li>
+        <li>SPSS</li>
+        <li>Data Visualization</li>
+        <li>Statistical Modeling</li>
+      </ul>
+    </section>
+
+    <section id="projects" class="section fade-in delay-2">
+  <h2>Featured Projects</h2>
+
+  <div class="project-card">
+    <img src="assets/project1.jpg" alt="Hire-Her Project">
+    <div>
+      <h3>Hire-Her Data Analysis</h3>
+      <p>
+        A data-driven prototype empowering women in job searches and education. I handled data cleaning,
+        analysis, and visualizations that shaped the platform’s UX and recommendation system.
+      </p>
+      <a href="projects/0.html" target="_blank">View Project</a>
+    </div>
+  </div>
+
+  <div class="project-card">
+    <img src="assets/project2.jpg" alt="Bicycle Commuting Research">
+    <div>
+      <h3>Bicycle Commuting Research</h3>
+      <p>
+        Investigated determinants of students’ adoption of bicycle commuting using SPSS and regression models.
+        Provided policy-based insights for sustainable campus transport.
+      </p>
+      <a href="projects/2.html" target="_blank">View Report</a>
+    </div>
+  </div>
+</section>
+  </main>
+
+  <footer id="contact" class="fade-in delay">
+    <h2>Contact Me</h2>
+    <form id="contact-form" action="https://formspree.io/f/xjkanqzr" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="_replyto" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+
+      <input type="hidden" name="_subject" value="New message from Ricks’ Portfolio" />
+      <input type="text" name="_gotcha" class="honeypot" style="display:none" />
+
+      <button type="submit">Send Message</button>
+    </form>
+    <p class="small">or reach me directly via:</p>
+    <p>Email: <a href="mailto:fredebube00000@gmail.com">fredebube00000@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/ebubechukwu-okolie" target="_blank">linkedin.com/in/ebubechukwu-okolie</a></p>
+    <p>GitHub: <a href="https://github.com/Ricks0ne" target="_blank">github.com/Ricks0ne</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
