@@ -74,6 +74,7 @@ h2 {
   margin-bottom: 1rem;
 }
 
+/* SKILLS GRID */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
@@ -90,6 +91,45 @@ h2 {
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
+/* EXPERIENCE SECTION */
+.experience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.exp-card {
+  background: var(--card-bg);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  border-left: 4px solid var(--accent);
+  transition: transform 0.3s ease;
+}
+
+.exp-card:hover {
+  transform: translateY(-3px);
+}
+
+.exp-card h3 {
+  margin: 0 0 0.3rem 0;
+  font-size: 1.15rem;
+}
+
+.exp-date {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent);
+  margin-bottom: 0.8rem;
+}
+
+.exp-card p {
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+/* PROJECT CARDS */
 .project-card {
   display: flex;
   align-items: center;
@@ -122,6 +162,7 @@ h2 {
   font-weight: 600;
 }
 
+/* CONTACT & FORM */
 form {
   display: flex;
   flex-direction: column;
@@ -172,6 +213,7 @@ footer a {
   opacity: 0.9;
 }
 
+/* ANIMATIONS */
 .fade-in {
   opacity: 0;
   transform: translateY(20px);
@@ -188,7 +230,7 @@ footer a {
   }
 }
 
-
+/* ABOUT SECTION */
 .about-container {
   display: flex;
   align-items: center;
@@ -253,6 +295,7 @@ footer a {
   transform: scale(1.03);
 }
 
+/* RESPONSIVE */
 @media (max-width: 768px) {
   .project-card {
     flex-direction: column;
@@ -260,9 +303,8 @@ footer a {
   .project-card img {
     width: 100%;
   }
-    .about-container {
+  .about-container {
     flex-direction: column;
     text-align: center;
   }
 }
-
